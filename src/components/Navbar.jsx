@@ -2,6 +2,9 @@ import React from 'react'
 import {navLinks} from '../../constants/index.js'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
+
+// gsap.registerPlugin(ScrollTrigger)
+
 const Navbar = () => {
     useGSAP(()=>{
         const navTween = gsap.timeline({
